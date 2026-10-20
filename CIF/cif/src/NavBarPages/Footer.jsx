@@ -107,7 +107,7 @@ function Footer() {
                         <h1 className="font-bold text-[16px]" >&copy;</h1><h1 className="font-sm text-[15px]"> Copyright 2025 LCF. All Rights Reserved.</h1>
                     </div>
                     <div className="flex flex-row w-230 pl-38 gap-x-2" >
-                        <h1 className="font-bold text-[13px]">&lt;&#47;&gt;</h1><h1 className="font-sm text-[15px]">Designed & Developed By:</h1><a href="https://kaktitech.com/" className="text-red-600 font-bold">KAKTI Technologies</a>
+                        <h1 className="font-bold text-[13px]">&lt;&#47;&gt;</h1><h1 className="font-sm text-[15px]">Copy By:</h1><a href="" className="text-red-600 font-bold">Faizan Amjad</a>
                     </div>
                 </div>
             </div>
