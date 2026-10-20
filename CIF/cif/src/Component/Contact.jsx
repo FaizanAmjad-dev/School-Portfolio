@@ -4,17 +4,19 @@ import { IoMdAlarm } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 import React from "react";
-
+import banner from '../assets/Slider-banner-1.jpg'
 
 
 function Contact() {
     const Time = "flex flex-col justify-center group-hover:bg-red-700 bg-yellow-400  group-hover:text-white mt-6 rounded-full"
     const file = "flex flex-col justify-center group-hover:bg-red-700 bg-yellow-400 group-hover:text-white mt-6 rounded-full"
-    
+
     return (
         <div className="min-h-screen w-full">
             {/*Backgroaund image */}
-            <div className="w-full flex flex-col justify-center h-99 border bg-gray-600 bg-[url('')] bg-cover">
+            <div className="w-full flex flex-col justify-center h-99 bg-gray-600 bg-cover"
+                style={{ backgroundImage: `url(${banner})` }}
+            >
                 <div className="ml-77  mt-38">
                     <h1 className="text-[57px] text-white font-bold"> Contact</h1>
                 </div>
@@ -54,7 +56,7 @@ function Contact() {
                         <p className="text-gray-600 text-xl">09.30am – 05.00pm</p>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
             {/*Question line*/}

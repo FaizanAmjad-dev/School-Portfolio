@@ -4,18 +4,22 @@ import furrukh from "../assets/furrukh.png"
 import zoe from "../assets/zoe.jpg"
 import anushka from "../assets/anushka.jpg"
 import amal from "../assets/amal.jpg"
-
+import bg from '../image/bg.jpeg'
 import Farrukh_shafiq from "../profile_pages/Farrukh_shafiq"
 import Zoë_khurshid_khan from "../profile_pages/Zoë_khurshid_khan"
 import Anushka_azhar_peracha from "../profile_pages/Anushka_azhar_peracha"
 import Amal_piracha from "../profile_pages/Amal_piracha"
+import banner from '../assets/Slider-banner-1.jpg'
 import { NavLink } from "react-router-dom"
 
 function About() {
     return (
         <div className="min-h-screen w-full">
             {/*Backgroaund image */}
-            <div className="w-full flex flex-col justify-center h-99 border bg-gray-600 bg-[url('')] bg-cover">
+            <div
+                className="w-full flex flex-col justify-center h-99 bg-gray-600 bg-cover"
+                style={{ backgroundImage: `url(${banner})` }}
+            >
                 <div className="ml-77  mt-38">
                     <h1 className="text-[57px] text-white font-bold">About</h1>
                 </div>
